@@ -5,12 +5,9 @@
     <title></title>
   </head>
   <body>
-    <p>1213</p>
-    <p>It works!</p>
     {% for post in posts %}
       <h1>{{post.title}}</h1>
       <p>{{ post.text }}</p>
-      <!-- <p>{{post.text}}<p> -->
     {%  endfor %}
   </body>
 </html>
